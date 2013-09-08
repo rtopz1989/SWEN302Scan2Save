@@ -31,4 +31,8 @@ public class MainActivity extends Activity {
 		Intent intent = new Intent(this, PricePerGramActivity.class);
 		startActivity(intent);
 	}
+	public void startScanner(View view) {
+		Intent intent = new Intent(this, CameraTestActivity.class);
+		startActivity(intent);
+	}
 }

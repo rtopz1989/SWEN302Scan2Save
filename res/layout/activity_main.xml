@@ -19,6 +19,7 @@
         android:layout_marginBottom="102dp"
         android:minHeight="100dp"
         android:minWidth="100dp"
+        android:onClick="startScanner"
         android:src="@drawable/barcode" />
 
     <ImageButton
