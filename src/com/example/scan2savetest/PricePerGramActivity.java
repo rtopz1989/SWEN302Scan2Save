@@ -45,7 +45,7 @@ public class PricePerGramActivity extends Activity {
 	public void calculatePricePerGram(View view){
 		double price = Double.parseDouble(priceEdit.getText().toString());
 		double weight = Double.parseDouble(weightEdit.getText().toString());
-		String pricePer100G = String.valueOf((price/weight)*100);
+		String pricePer100G = String.valueOf((weight/price)*100);
 		ppg.setText(pricePer100G);
 	}
 
